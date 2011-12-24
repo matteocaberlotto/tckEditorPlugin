@@ -1,0 +1,14 @@
+just activate the plugin into ProjectConfiguration.class.php
+
+usage:
+
+[into form configuration]
+
+    $this->richText(array(
+        'abstract' => array( // for embedded fields
+            'sub' => 'en'
+        ),
+        'body' => array( // custom field configuration
+            'config' => '[["Bold", "Italic", "Underline", "Strike", "NumberedList", "BulletedList", "-", "Link","Unlink" ]]'
+        )
+    ));
