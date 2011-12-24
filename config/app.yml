@@ -1,0 +1,4 @@
+all:
+  ckEditorPlugin:
+    # config: Basic
+    config: '[["Source", "Undo", "Redo", "Preview", "-", "Bold", "Italic", "Underline", "Strike", "NumberedList", "BulletedList", "-", "Link","Unlink" ]]'
